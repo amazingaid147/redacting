@@ -152,8 +152,8 @@ void redact_words(const char *text_filename, const char *redact_words_filename){
   }
 }
 int main(void){
-  char * cunt = "Input.txt";
-  char * cock = "Redact_Word.txt";
-  redact_words(cunt,cock);
+  char * In = "Input.txt";
+  char * Red = "Redact_Word.txt";
+  redact_words(In,Red);
   
 }
